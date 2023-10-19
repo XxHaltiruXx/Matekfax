@@ -1,0 +1,88 @@
+body {
+    background-color: #36393e;
+}
+
+.kozep {
+    margin: 0;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px pink;
+    display: flex;
+    align-items: center;
+    justify-content: center
+        ;
+    background-color: rgb(255, 0, 0)
+        ;
+    overflow: hidden;
+}
+
+.triangle {
+    color: lime;
+}
+span.red {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+span.lime {
+    color: lime;
+}
+span.turquoise {
+    color: turquoise;
+}
+span.yellow {
+    color: yellow;
+}
+span.bisque {
+    color: bisque;
+}
+img {
+    background-color: rgb(70, 70, 70);
+    display: block;
+}
+span.blueviolet {
+    color:blueviolet
+}
+span.orange {
+    color: orange
+}
+h2.red {
+    color:red
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+
+}
+
+
+pre {
+    text-align: left 
+    ;color: rgb(255, 255, 255);
+     font-family: 'Times New Roman';
+}
+
+.asd {
+    color: white;
+    position: fixed;
+    top: -25px;
+    background-color: #2e3034;
+    width: 110%;
+    left: -10px;
+    z-index: 1;
+    height: 6%;
+    overflow: hidden;
+}
+
+.asd:active {
+    background-color: white;
+    color: #2e3034;
+}
+
+h2.harom {
+    padding-top: 70px;
+}
+
