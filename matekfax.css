@@ -40,16 +40,16 @@ span.bisque {
 img {
     background-color: rgb(70, 70, 70);
     display: block;
-    width: 75%;
+    width: 25%;
 }
 span.blueviolet {
-    color:blueviolet
+    color:blueviolet;
 }
 span.orange {
-    color: orange
+    color: orange;
 }
 h2.red {
-    color:red
+    color:red;
 }
 .center {
     display: block;
