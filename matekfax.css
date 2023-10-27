@@ -40,29 +40,29 @@ span.bisque {
 img {
     background-color: rgb(70, 70, 70);
     display: block;
-    width: 75%;
+    width: 25%;
+    border: 3px black solid;
 }
 span.blueviolet {
-    color:blueviolet;
+    color:blueviolet
 }
 span.orange {
-    color: orange;
+    color: orange
 }
 h2.red {
-    color:red;
+    color:red
 }
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 5%;
-
 }
 
 
 pre {
     text-align: justify;
-    margin-left: 39%;
+    margin-left: 36.5%;
     color: rgb(255, 255, 255);
     font-family: 'Times New Roman';
 }
@@ -70,29 +70,100 @@ pre {
 .asd {
     color: white;
     position: fixed;
-    top: -25px;
+    top:-22px;
     background-color: #2e3034;
     width: 110%;
     left: -10px;
     z-index: 1;
-    height: 6%;
+    height: 65px;
     overflow: hidden;
+    transition: background-color 0.5s ease-in-out;
 }
 
-.asd:active {
-    background-color: white;
-    color: #2e3034;
-
+.hely {
+    margin-top: 0.5em;
+    text-align: center;
+    font-size: 32px;
 }
+
+.asd:hover {
+    background-color: black;
+    animation: möv 8s linear infinite;
+}
+
+
+
 
 h2.harom {
-    padding-top: 70px;
+    padding-top: 100px;
 }
 
 h2 {
-    margin-left: 39%;
+    margin-left: 36.5%;
 }
 
 p {
-    margin-left: 39%;
+    margin-left: 36.5%;
+}
+@font-face {
+    font-family: Sw;
+    src: url(Springwood\ Display\ DEMO.otf);
+}
+
+@keyframes matekfax {
+    from {
+        background-color: green;
+
+    }
+
+    25% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: yellow;
+    }
+
+    75% {
+        background-color: aqua;
+    }
+
+    to {
+        background-color: blue;
+    }
+}
+
+@keyframes möv {
+    0% {
+        color: red;
+
+    }
+
+    14.2857142857% {
+        color: orange;
+    }
+
+    28.5714285714% {
+        color: yellow;
+    }
+
+    42.8571428571% {
+        color: green;
+    }
+
+    57.1428571428% {
+        color: blue;
+    }
+
+    71.4285714285% {
+        color:indigo
+    }
+
+    85.7142857142% {
+        color: blueviolet;
+    }
+
+    100% {
+        color: red
+    }
 }
